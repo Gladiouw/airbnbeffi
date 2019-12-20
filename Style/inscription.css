@@ -1,0 +1,98 @@
+
+@font-face{
+    font-family: "Modern";
+    src: url('../Font/ModernSans-Light.otf') format("opentype");
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Modern";
+}
+
+@font-face{
+    font-family: "Modern";
+    src: url('../Font/ModernSans-Light.otf') format("opentype");
+}
+
+.modern{
+    font-family: "Modern";
+    
+}
+
+#Acceuil {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Modern";
+
+}
+
+#login {
+    width: 30%;
+    height: 80vh;
+    background-color: #0F7891;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Modern;
+
+}
+
+.trait {
+    background-color: white;
+    width: 70%;
+    height: 1px;
+    margin-top: 10%;
+}
+
+.input {
+    width: 60%;
+    height: 3vh;
+    border: 0;
+    margin: 4%; 
+    opacity: 65%;
+}
+
+#nom_prenom {
+    display: flex;
+    justify-content: center;
+}
+
+.input2 {
+    width: 28%;
+    height: 3vh;
+    border: 0;
+    margin: 4%; 
+    opacity: 65%;
+}
+
+a{
+    margin-top: 5%;
+    color: white;
+}
+
+#inscription {
+
+    border: none;
+    background-color: white;
+    width: 80%;
+    height: 5vh;
+    margin-top: 10%;
+    text-decoration: black;
+    font-family: Modern;
+
+
+}
+
+#inscription a {
+    text-decoration: none;
+    color: black;
+}

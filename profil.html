@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.gif" />
+    <link rel="stylesheet" type="text/css" href="Style/profil.css" />
+    <title> Airbnb Social Network </title>
+    
+
+</head>
+
+<body>
+
+    <img src="Img/Profil.png" width="100%" height="auto">
+    <section id="diapo">
+
+        <img name="slide">
+
+    </section>
+    
+
+
+</body>
+
+<script>
+        
+    /*§§§§§§§§§§§§§§§§§§ diapo §§§§§§§§§§§§§§§§§§*/
+    var i = 0;
+    var images = ['Img/image01.png' , 'Img/image02.png', 'Img/image03.png', 'Img/image04.png', 'Img/image05.png' ];
+    var time = 2000;
+
+        function changeImg() {
+            
+            document.slide.src = images[i];
+
+            if (i < images.length - 1) {
+                i++;
+            } else {
+                i = 0
+            }
+            setTimeout("changeImg()", time);
+
+        }
+        window.onload = changeImg;
+
+</script>
+
+</html>

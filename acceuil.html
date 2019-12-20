@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.gif" />
+    <link rel="stylesheet" type="text/css" href="Style/acceuil.css" />
+    <title> Airbnb Social Network </title>
+    
+
+</head>
+
+<header>
+
+    <img src="img/Logo_Acceuil.png" width="80px" height="auto"></img>
+    <a id="research">Recherche</a>
+    <a id="name">Alexandre Dupont</a>
+
+</header>
+
+<body>
+
+    <section id="banderolle">
+
+            <div class="test"><a class="modern">Profil</a></div v>
+            <div class="test"><a class="modern">Parrainage</a></div>
+            <div class="test"><a class="modern">Infos pratiques</a></div>
+            <div class="test"><a class="modern">Paramètres</a></div>
+
+    </section>
+
+    <section id="diapo">
+
+        <img name="slide">
+
+    </section>
+
+    <section id="main">
+
+        <div id="chat">
+
+            <div id="moi">
+
+                <img src="Img/alexandre.png" width="35px" height="35px">
+                <input type="texte" placeholder="EXPRIMEZ-VOUS, ALEXANDRE...">
+
+            </div>
+            <div class="personne1">
+                <img src="Img/carla.png" width="50px" height="50px">
+                <div class="texte"><a class="nom">Carla Bruni :</a>
+                <a>Bonjour, quelqu’un m’a dit qu’il était possible de se faire parrainer. 
+                    Auriez-vous la gentillesse de me dire comment cela se passe ? 
+                    Merci d’avance ! </a>
+                    <div id="moi">
+
+                        <img src="Img/alexandre.png" width="35px" height="35px">
+                        <input type="texte" placeholder="EXPRIMEZ-VOUS, ALEXANDRE...">
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="personne1">
+
+                <img src="Img/julie.png" width="50px" height="50px">
+                <div class="texte"><a class="nom">julie Pietri :</a>
+                <a>Petit rappel pour les nouveaux, le programme Assurance Hôte sert 
+                    uniquement de protection principale pour les incidents liés aux séjours 
+                    Airbnb ; il est disponible pour les hôtes indépendamment de leurs autres 
+                    régimes d’assurance.</a>
+                    <div id="moi">
+
+                        <img src="Img/alexandre.png" width="35px" height="35px">
+                        <input type="texte" placeholder="EXPRIMEZ-VOUS, ALEXANDRE...">
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="personne1">
+
+                <img src="Img/gilbert.png" width="50px" height="50px">
+                <div class="texte"><a class="nom">Gilbert Montagne :</a>
+                <a>Bonjour à tous! J’ai des voyageurs qui me demandent une activité à 
+                    faire avec des enfants en bas âge dans le centre de Lille. 
+                    Avez-vous des pistes à me donner ? :)
+                    </a>
+                    <div id="moi">
+
+                        <img src="Img/alexandre.png" width="35px" height="35px">
+                        <input type="texte" placeholder="EXPRIMEZ-VOUS, ALEXANDRE...">
+        
+                    </div>
+                </div>
+
+            </div>
+            <div class="personne1">
+
+                <img src="Img/patrick.png" width="50px" height="50px">
+                <div class="texte"><a class="nom">Patrick Hernadez :</a>
+                <a>Petit conseil, pensez à bien lire les profils et les commentaires de vos 
+                    voyageurs potentiels et prêtez attention aux numéros de téléphone vérifiés, 
+                    aux connexions aux réseaux sociaux et aux recommandations. 
+                    Si des voyageurs potentiels ne disposent pas d’un profil vérifié, 
+                    demandez-leur d’effectuer quelques étapes de vérification.
+                    </a>
+                    <div id="moi">
+
+                        <img src="Img/alexandre.png" width="35px" height="35px">
+                        <input type="texte" placeholder="EXPRIMEZ-VOUS, ALEXANDRE...">
+        
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="evenement">
+
+            <img src="Img/evenement.png">
+
+        </div>
+
+
+    </section>
+
+</body>
+
+    <script>
+        
+        /*§§§§§§§§§§§§§§§§§§ diapo §§§§§§§§§§§§§§§§§§*/
+        var i = 0;
+        var images = ['Img/map_lille_diapo.png' , 'Img/lille_diapo.png' , 'Img/salon_diapo.png' ];
+        var time = 20000;
+
+            function changeImg() {
+                
+                document.slide.src = images[i];
+
+                if (i < images.length - 1) {
+                    i++;
+                } else {
+                    i = 0
+                }
+                setTimeout("changeImg()", time);
+
+            }
+            window.onload = changeImg;
+
+    </script>
+
+ </html>

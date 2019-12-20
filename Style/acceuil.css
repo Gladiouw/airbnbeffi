@@ -1,0 +1,142 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: modern;
+    src: url('ModernSans-Light.otf') format("opentype");
+}
+
+.modern{
+    font-family: modern, Arial, sans-serif;
+    
+}
+
+        /* §§§§§§ HEADER §§§§§§*/
+
+header {
+    margin: 15px;;
+    display: flex;
+    align-items: center;
+}
+
+#research {
+    background: rgb(212, 211, 211);
+    margin-left: 60%;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    opacity: 60%;
+    color: black;
+}
+
+#name {
+    background: #F4EDE6;
+    padding: 5px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-left: 5%;
+}
+
+#banderolle a {
+    list-style: none;
+    color: white;
+}
+
+#banderolle {
+    background-color: #0F7891;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.test {
+    width: 25%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white;
+}
+
+#diapo img {
+    width: 100%;
+    height: 25vh;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 32%;
+    left: 50%;
+}
+
+#main {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#chat {
+    margin-left: 20px;
+    width: 75%;
+    background-color: #F4EDE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#evenement {
+    width: 20%;
+}
+
+#evenement img {
+    width: 100%;
+}
+
+#moi {
+    margin-top: 30px;;
+    display: flex;;
+    width: 60%;
+    background: white;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#moi input {
+    width: 93%;
+    border: none;
+}
+
+#chat {
+    display: flex;
+    width: 75%;
+}
+
+.personne1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.personne1 .texte {
+    padding: 10px;;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.nom {
+    color: #0F7891;
+}
